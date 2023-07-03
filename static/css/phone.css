@@ -1,0 +1,149 @@
+@media only screen and (max-width: 850px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav-section {
+        overflow: hidden;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        transition: all 1s ease-in-out;
+
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        right: 0;
+        transition: all 1s ease-in-out;
+    }
+
+    .burger {
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+        z-index: 2;
+        width: 99.9%;
+        opacity: 0.8;
+    }
+
+    .burger:hover {
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 1px;
+        ;
+    }
+
+    .line {
+        width: 33px;
+        background-color: white;
+        height: 6px;
+        margin: 3px 3px;
+        border-radius: 11px;
+
+    }
+
+    .intro {
+
+        position: absolute;
+        top: 0px;
+    }
+
+    .intro img {
+        height: 221px;
+    }
+
+
+    .intro::before {
+
+        height: 94%;
+    }
+
+    .intro p {
+
+        font-size: 16px;
+        width: 93%;
+        margin-top: 10px;
+
+    }
+
+
+    #services {
+        margin: 75px 0;
+        position: relative;
+        top: 509px;
+    }
+
+    #services h1 {
+        margin-top: 50px;
+    }
+
+    #card {
+        width: 340px;
+    }
+
+    .navbar::before {
+
+        height: 50%;
+
+    }
+
+
+
+    .about::before {
+
+        height: 96%;
+
+    }
+
+    #about {
+        position: relative;
+        top: 395px;
+        margin: 115px 0;
+    }
+
+    #contact {
+        position: relative;
+        top: 300px;
+    }
+
+    .form-group::before {
+        height: 100%;
+    }
+
+    .form-group input {
+        width: 71%;
+    }
+
+    .form-group .btn {
+        padding: 7px;
+    }
+
+    footer {
+        position: relative;
+        top: 293px;
+    }
+
+    .h-nav {
+        height: 33px;
+    }
+
+    .v-nav {
+        opacity: 0;
+    }
+
+    
+
+}
