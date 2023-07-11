@@ -8,7 +8,7 @@ const logo = document.querySelector(".logo")
 const Hide = () => {
     nav.classList.toggle('h-nav')
     navlist.classList.toggle('v-nav')
-    // searchbar.classList.toggle('v-nav')
+
     logo.classList.toggle('v-nav')
 }
 
