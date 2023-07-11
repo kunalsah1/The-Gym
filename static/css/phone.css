@@ -116,7 +116,7 @@
 
     #contact {
         position: relative;
-        top: 300px;
+        top: 325px;
     }
 
     .form-group::before {
@@ -133,7 +133,7 @@
 
     footer {
         position: relative;
-        top: 293px;
+        top: 314px;
     }
 
     .h-nav {
@@ -144,6 +144,6 @@
         opacity: 0;
     }
 
-    
+
 
 }
