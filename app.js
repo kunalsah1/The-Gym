@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const app = express();
 const port = 80
@@ -19,10 +20,10 @@ app.get("/membership-form", (req, res) => {
 
 //Connection created to the database
 const contactDb = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '9930kunal',
-    database: 'contact',
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
 
 });
 
@@ -51,10 +52,10 @@ app.post("/contact", (req, res) => {
 
 
 const memberDb = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '9930kunal',
-    database: 'member',
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE_MEMBERS,
 
 });
 
