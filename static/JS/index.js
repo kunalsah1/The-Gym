@@ -31,6 +31,16 @@ const validateForm = () => {
 }
 
 
+const scrollTop = document.getElementById("top")
+
+scrollTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+})
+
+
 
 
 

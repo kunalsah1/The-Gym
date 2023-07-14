@@ -94,6 +94,10 @@
         width: 340px;
     }
 
+    .card {
+        margin-top: 20px;
+    }
+
     .navbar::before {
 
         height: 50%;
@@ -144,6 +148,13 @@
         opacity: 0;
     }
 
+    #top {
 
+        right: 6px;
+        width: 45px;
+        cursor: pointer;
+        z-index: 1;
+        bottom: 0px;
+    }
 
 }

@@ -1,148 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Gym</title>
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/phone.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Gym </title>
-    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/phone.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="navbar">
+        <div id="nav-section" class="h-nav">
+          <div class="logo v-nav">
+            <img src="./images/int.png" alt="" />
+          </div>
+          <ul class="nav-list v-nav">
+            <li><a href="/"> Home</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#contact"> Contact</a></li>
+          </ul>
         </div>
-        <nav class="navbar">
 
-            <div id="nav-section" class="h-nav">
-                <div class="logo v-nav">
-                    <img src="./images/int.png" alt="">
-                </div>
-                <ul class="nav-list v-nav">
-                    <li><a href="/"> Home</a></li>
-                    <li><a href="#services"> Services</a></li>
-                    <li><a href="#about"> About</a></li>
-                    <li><a href="#contact"> Contact</a></li>
-                </ul>
-            </div>
+        <div class="intro" id="home">
+          <img src="./images/int.png" alt="company" />
+          <p>
+            Welcome to The Gym, the ultimate fitness destination that
+            revolutionizes the way you work out! We are thrilled to introduce
+            our brand-new gym, designed to inspire and empower individuals like
+            you to achieve your fitness goals.
+          </p>
 
-            <div class="intro" id="home">
-                <img src="./images/int.png" alt="company">
-                <p>Welcome to The Gym, the ultimate fitness destination that revolutionizes the way you work out! We are
-                    thrilled to introduce our brand-new gym, designed to inspire and empower individuals like you to
-                    achieve your fitness goals.</p>
-
-                <a href="/membership-form"><button value="submit" id="join" class="btn">Join now</button></a>
-            </div>
-
-        </nav>
+          <a href="/membership-form"
+            ><button value="submit" id="join" class="btn">Join now</button></a
+          >
+        </div>
+      </nav>
     </header>
     <section id="services" class="service-section center">
-        <h1 class="h-primary">Our Services</h1>
-        <div id="box">
-            <div class="cards">
-                <div class="card" id="card1">
-                    <h2>Personal training </h2>
-                    <div class="para">
-                        <p>In the personal training corner, Our highly qualified and experienced trainers work closely
-                            with individual clients to develop customized exercise programs that align with their
-                            specific goals, abilities, and preferences. Whether someone is aiming for weight loss,
-                            muscle building, athletic performance enhancement, or overall fitness improvement, Our
-                            trainers excel at creating personalized workout plans that optimize results.</p>
-                    </div>
-                </div>
-                <div class="card" id="card2">
-                    <h2>Cardiovascular Equipment</h2>
-                    <div class="para">
-                        <p> We Have a range of cardio machines like treadmills, ellipticals, stationary bikes, rowing
-                            machines, and stair climbers, allowing members to improve their cardiovascular health and
-                            burn calories.</p>
-
-
-                    </div>
-                </div>
-                <div class="card" id="card3">
-                    <h2>Personalized Fitness Programs</h2>
-                    <div class="para">
-                        <p>We offer personalized fitness programs based on individual goals and fitness levels. This
-                            include creating workout plans, tracking progress, and providing ongoing support and
-                            motivation.</p>
-                    </div>
-                </div>
-                <div class="card" id="card4">
-                    <h2>Sports-Specific Training</h2>
-                    <div class="para">
-                        <p> We provide training programs and facilities tailored to specific sports such as basketball,
-                            soccer, tennis, or swimming, helping athletes improve their performance.</p>
-                    </div>
-                </div>
-                <div class="card" id="card5">
-                    <h2>Virtual Training</h2>
-                    <div class="para">
-                        <p> We offer online training sessions or provide access to virtual fitness platforms that allow
-                            members to participate in workouts remotely.</p>
-                    </div>
-                </div>
+      <h1 class="h-primary">Our Services</h1>
+      <div id="box">
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/personal.jpg"
+              class="card-img-top"
+              alt="personal training"
+            />
+            <h2>Personal Training</h2>
+            <div class="card-body">
+              <p class="card-text">
+                In the personal training corner, Our highly qualified and
+                experienced trainers work closely with individual clients to
+                develop customized exercise programs that align with their
+                specific goals, abilities, and preferences.
+              </p>
             </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/cardio.jfif" class="card-img-top" alt="cardio" />
+            <h2>Cardio</h2>
+            <div class="card-body">
+              <p class="card-text">
+                We Have a range of cardio machines like treadmills, ellipticals,
+                stationary bikes, rowing machines, and stair climbers, allowing
+                members to improve their cardiovascular health and burn
+                calories.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/pro.jpg" class="card-img-top" alt="cardio" />
+            <h2>Fitness Programs</h2>
+            <div class="card-body">
+              <p class="card-text">
+                We offer personalized fitness programs based on individual goals
+                and fitness levels. This include creating workout plans,
+                tracking progress, and providing ongoing support and motivation.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/sport.jpg" class="card-img-top" alt="cardio" />
+            <h2>Sports</h2>
+            <div class="card-body">
+              <p class="card-text">
+                We provide training programs and facilities tailored to specific
+                sports such as basketball, soccer, tennis, or swimming, helping
+                athletes improve their performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/virt.jpg" class="card-img-top" alt="cardio" />
+            <h2>Virtual Fitness Session</h2>
+            <div class="card-body">
+              <p class="card-text">
+                We offer online training sessions or provide access to virtual
+                fitness platforms that allow members to participate in workouts
+                remotely.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img
+            src="./images/sauna.jpg"
+            class="card-img-top"
+            alt="personal training"
+          />
+          <h2>Sauna and Steam Rooms</h2>
+          <div class="card-body">
+            <p class="card-text">
+              Relax and rejuvenate in our sauna and steam rooms. These amenities
+              provide numerous health benefits, including detoxification, stress
+              relief, and improved circulation.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/locker.webp" class="card-img-top" alt="cardio" />
+          <h2>Locker Room and Showers</h2>
+          <div class="card-body">
+            <p class="card-text">
+              Enjoy the convenience of our locker rooms equipped with secure
+              lockers and clean showers, allowing you to freshen up before or
+              after your workout.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/yoga.jpg" class="card-img-top" alt="cardio" />
+          <h2>Yoga and Meditation Classes</h2>
+          <div class="card-body">
+            <p class="card-text">
+              Join our yoga and meditation classes to improve flexibility,
+              promote relaxation, and achieve mental well-being. Our experienced
+              instructors will guide you through various yoga poses and
+              mindfulness practices.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/massage.jfif" class="card-img-top" alt="cardio" />
+          <h2>Massage Therapy</h2>
+          <div class="card-body">
+            <p class="card-text">
+              Relax and unwind with our massage therapy services. Our licensed
+              therapists will help relieve muscle tension, reduce stress, and
+              promote recovery.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/kids.webp" class="card-img-top" alt="cardio" />
+          <h2>Kids' Programs</h2>
+          <div class="card-body">
+            <p class="card-text">
+              Engage your children in fitness activities with our kids'
+              programs. We offer classes, sports, and activities designed to
+              promote a healthy lifestyle and develop their physical abilities.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="about" class="about-container center">
-        <h1 class="h-primary about-margin">About us</h1>
-        <div class="about">
-            <div class="abt">
-                <div id="about-para">
-                    <p>- State-of-the-art facilities equipped with top-of-the-line fitness equipment</p>
-                    <p>- Certified trainers and instructors dedicated to helping you reach your fitness goals</p>
-                    <p>- Personalized training plans tailored to your specific needs</p>
-                    <p>- A wide range of fitness classes and group training sessions to keep you motivated</p>
-                    <p>- Opportunities to connect with a community of like-minded individuals</p>
-                    <p>- Social events and workshops to enhance your overall fitness experience</p>
-                    <p>- Flexible membership options to suit your lifestyle and budget</p>
-                    <p>- A welcoming and supportive environment for individuals of all fitness levels</p>
-                    <p>- Emphasis on long-term health and wellness, not just short-term goals</p>
-                    <p>- Encouragement to embrace fitness as a lifelong journey</p>
-                    <p>- Commitment to helping you exceed your limits and unlock your full potential</p>
-                    <p>- A place where you can challenge yourself and achieve greatness</p>
-                </div>
-            </div>
+      <h1 class="h-primary about-margin">About us</h1>
+      <div class="about">
+        <div class="abt">
+          <div id="about-para">
+            <p>
+              - State-of-the-art facilities equipped with top-of-the-line
+              fitness equipment
+            </p>
+            <p>
+              - Certified trainers and instructors dedicated to helping you
+              reach your fitness goals
+            </p>
+            <p>- Personalized training plans tailored to your specific needs</p>
+            <p>
+              - A wide range of fitness classes and group training sessions to
+              keep you motivated
+            </p>
+            <p>
+              - Opportunities to connect with a community of like-minded
+              individuals
+            </p>
+            <p>
+              - Social events and workshops to enhance your overall fitness
+              experience
+            </p>
+            <p>
+              - Flexible membership options to suit your lifestyle and budget
+            </p>
+            <p>
+              - A welcoming and supportive environment for individuals of all
+              fitness levels
+            </p>
+            <p>
+              - Emphasis on long-term health and wellness, not just short-term
+              goals
+            </p>
+            <p>- Encouragement to embrace fitness as a lifelong journey</p>
+            <p>
+              - Commitment to helping you exceed your limits and unlock your
+              full potential
+            </p>
+            <p>
+              - A place where you can challenge yourself and achieve greatness
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact">
-        <h1 class="h-primary center">Contact US</h1>
-        <form action="/contact" method="post" id="cont" onsubmit="return validateForm()">
-            <div class="form-group">
-                <input type="text" name="name" id="name" placeholder="Enter your name">
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-                <input type="number" name="mobile" id="mobile" placeholder="Enter your mobile no.">
-                <button class="btn">Submit</button>
-            </div>
-        </form>
-
+      <h1 class="h-primary center">Contact US</h1>
+      <form
+        action="/contact"
+        method="post"
+        id="cont"
+        onsubmit="return validateForm()"
+      >
+        <div class="form-group">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <input
+            type="number"
+            name="mobile"
+            id="mobile"
+            placeholder="Enter your mobile no."
+          />
+          <button class="btn">Submit</button>
+        </div>
+      </form>
+      <img src="./images/arrow.png" id="top" alt="top" />
     </section>
     <footer class="center">
-        Copyright &copy; www.TheGym.com. All rights reserved!
+      Copyright &copy; www.TheGym.com. All rights reserved!
     </footer>
 
-
-
     <script src="./JS/index.js"></script>
-</body>
-
+  </body>
 </html>
